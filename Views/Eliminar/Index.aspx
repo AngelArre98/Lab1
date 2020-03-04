@@ -4,18 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>Eliminar Video</title>
 </head>
 <body>
-    
-    <h1>Bienvenidos</h1>
-    <a href ="Agregar/Index">Agregar video</a>
-    <hr />
-    <a href ="Eliminar/Index">Eliminar</a>
-    <hr />
-    <a href ="Modificar/Index">Modificar</a>
-    <hr />
-    
-
+    <h1>Eliminar Videos</h1>
 </body>
 </html>
