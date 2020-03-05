@@ -28,7 +28,7 @@ namespace MvcPlantilla.Controllers
             parametros.Add(new SqlParameter("@repro", repro));
             parametros.Add(new SqlParameter("@url", url));
 
-            BaseHelper.ejecutarConsulta("Insert into videos values(@IdVideo,@titulo,@repro,@url)",CommandType.Text,parametros);
+            BaseHelper.ejecutarConsulta("Insert into video values(@IdVideo,@titulo,@repro,@url)",CommandType.Text,parametros);
             return View();
         }
 

@@ -70,6 +70,7 @@
     <Compile Include="Controllers\EliminarController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ModificarController.cs" />
+    <Compile Include="Controllers\VervideosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -83,6 +84,7 @@
     <Content Include="Views\Eliminar\Index.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Modificar\Index.aspx" />
+    <Content Include="Views\Vervideos\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

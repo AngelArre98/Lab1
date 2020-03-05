@@ -8,5 +8,24 @@
 </head>
 <body>
     <h1>Eliminar Videos</h1>
+
+    <form action ="/Eliminar/Index/" method = "post">
+    <fieldset> 
+    <legend>Eliminar videos</legend>
+   
+    <label for ="IdVideo">Id del video </label>
+    <input type ="text" name = "IdVideo"/>
+
+    <input  type="submit" value = "Eliminar"/>
+    
+    
+    </fieldset>
+    
+    
+    
+    
+    
+    
+    </form>
 </body>
 </html>
